@@ -7,30 +7,35 @@
     tools:context="com.ptp.phamtanphat.fragmentpopbackstack.MainActivity">
 
     <Button
+        android:onClick="AddFragmentA"
         android:id="@+id/buttonAddfragmentA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Fragment A" />
 
     <Button
+        android:onClick="AddFragmentB"
         android:id="@+id/buttonAddfragmentB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/buttonAddfragmentA"
         android:text="Add Fragment B" />
     <Button
+        android:onClick="ReplaceA"
         android:layout_toRightOf="@id/buttonAddfragmentB"
         android:id="@+id/buttonReplacefragmentA"
         android:text="Replace A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="ReplaceB"
         android:layout_below="@id/buttonAddfragmentB"
         android:id="@+id/buttonReplacefragmentB"
         android:text="Replace B"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="RemoveA"
         android:layout_toRightOf="@id/buttonReplacefragmentB"
         android:layout_below="@id/buttonAddfragmentB"
         android:id="@+id/buttonRemovefragmentA"
@@ -38,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="RemoveB"
         android:layout_toRightOf="@id/buttonRemovefragmentA"
         android:layout_below="@id/buttonAddfragmentB"
         android:id="@+id/buttonRemovefragmentB"
