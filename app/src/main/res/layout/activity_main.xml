@@ -30,4 +30,18 @@
         android:text="Replace B"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@id/buttonReplacefragmentB"
+        android:layout_below="@id/buttonAddfragmentB"
+        android:id="@+id/buttonRemovefragmentA"
+        android:text="Remove A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@id/buttonRemovefragmentA"
+        android:layout_below="@id/buttonAddfragmentB"
+        android:id="@+id/buttonRemovefragmentB"
+        android:text="Remove B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
